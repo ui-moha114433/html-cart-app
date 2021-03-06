@@ -1,0 +1,17 @@
+{
+  "name": "cart_application",
+  "version": "1.0.0",
+  "description": "For interview requirement",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "local": "live-server",
+    "watch-scss": "node-sass scss/style.scss css/style.css -watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "node-sass": "^5.0.0"
+  }
+}

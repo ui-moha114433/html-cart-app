@@ -1,0 +1,210 @@
+/* line 5, scss/style.scss */
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%; }
+
+/* Webfont: Lato-Regular */
+@font-face {
+  font-family: 'Lato';
+  src: url("../fonts/Lato/Lato-Regular.eot");
+  src: url("../fonts/Lato/Lato-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato/Lato-Regular.woff") format("woff"), url("../fonts/Lato/Lato-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+/* line 23, scss/style.scss */
+body {
+  font-family: 'Lato'; }
+  /* line 25, scss/style.scss */
+  body .container {
+    display: grid; }
+    /* line 27, scss/style.scss */
+    body .container header {
+      border: 1px solid #ccc;
+      border-left: 0;
+      border-right: 0;
+      margin: 20px 0px;
+      display: flex;
+      align-items: last baseline; }
+      /* line 34, scss/style.scss */
+      body .container header h1 {
+        font-size: 30px;
+        font-weight: lighter; }
+      /* line 38, scss/style.scss */
+      body .container header .alert-info {
+        width: auto;
+        margin: 0px auto;
+        padding: 10px 20px;
+        border-radius: 5px;
+        background: #0dcaf0;
+        color: #fff; }
+    /* line 48, scss/style.scss */
+    body .container .product-wrapper {
+      width: 75%;
+      float: left;
+      display: inline-flex;
+      flex-wrap: wrap;
+      gap: 20px; }
+      /* line 54, scss/style.scss */
+      body .container .product-wrapper .card {
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        width: 30%; }
+        /* line 59, scss/style.scss */
+        body .container .product-wrapper .card__header span {
+          color: #fff;
+          background-color: #157347;
+          border-color: #146c43;
+          position: absolute;
+          padding: 5px;
+          border-radius: 5px; }
+        /* line 68, scss/style.scss */
+        body .container .product-wrapper .card__body {
+          text-align: center; }
+          /* line 70, scss/style.scss */
+          body .container .product-wrapper .card__body img {
+            width: 40%;
+            background: #ddd;
+            padding: 1px;
+            margin: 15px 0px; }
+        /* line 77, scss/style.scss */
+        body .container .product-wrapper .card__footer {
+          background: #ddd;
+          font-size: 14px;
+          display: grid;
+          padding: 10px; }
+          /* line 82, scss/style.scss */
+          body .container .product-wrapper .card__footer p {
+            color: #146c43;
+            font-size: 16px;
+            font-weight: bold;
+            border-bottom: 1px dashed #ccc;
+            padding-bottom: 10px; }
+          /* line 90, scss/style.scss */
+          body .container .product-wrapper .card__footer ul {
+            list-style: none;
+            padding: 0;
+            margin: 0; }
+            /* line 94, scss/style.scss */
+            body .container .product-wrapper .card__footer ul li {
+              width: 50%;
+              float: left;
+              font-size: 14px; }
+              /* line 99, scss/style.scss */
+              body .container .product-wrapper .card__footer ul li:first-child span.normal-text {
+                text-decoration: line-through;
+                text-decoration-color: red;
+                font-weight: bold;
+                text-decoration-thickness: 2px; }
+              /* line 105, scss/style.scss */
+              body .container .product-wrapper .card__footer ul li:first-child span {
+                font-weight: bold;
+                font-size: 14px; }
+              /* line 110, scss/style.scss */
+              body .container .product-wrapper .card__footer ul li:last-child {
+                text-align: right; }
+                /* line 112, scss/style.scss */
+                body .container .product-wrapper .card__footer ul li:last-child button {
+                  color: #0dcaf0;
+                  background-color: transparent;
+                  border-color: #0dcaf0;
+                  border-radius: 5px;
+                  font-size: 14px;
+                  padding: 8px 15px;
+                  cursor: pointer; }
+                  /* line 120, scss/style.scss */
+                  body .container .product-wrapper .card__footer ul li:last-child button:hover {
+                    background-color: #0dcaf0;
+                    color: #fff; }
+    /* line 131, scss/style.scss */
+    body .container .total-wrapper {
+      width: 25%;
+      float: left; }
+      /* line 136, scss/style.scss */
+      body .container .total-wrapper .product-options .Table,
+      body .container .total-wrapper .product-total .Table {
+        display: table;
+        width: 100%;
+        font-size: 14px; }
+        /* line 140, scss/style.scss */
+        body .container .total-wrapper .product-options .Table .total-row,
+        body .container .total-wrapper .product-total .Table .total-row {
+          background: #ddd; }
+      /* line 145, scss/style.scss */
+      body .container .total-wrapper .product-options .Heading,
+      body .container .total-wrapper .product-total .Heading {
+        display: table-row;
+        font-weight: bold;
+        text-align: center; }
+      /* line 150, scss/style.scss */
+      body .container .total-wrapper .product-options .Row,
+      body .container .total-wrapper .product-total .Row {
+        display: table-row; }
+      /* line 153, scss/style.scss */
+      body .container .total-wrapper .product-options .Cell,
+      body .container .total-wrapper .product-total .Cell {
+        color: #888;
+        display: table-cell;
+        border-top: 1px solid #ddd;
+        border-bottom: 1px solid #ddd;
+        padding-left: 5px;
+        padding-right: 5px; }
+        /* line 160, scss/style.scss */
+        body .container .total-wrapper .product-options .Cell ul,
+        body .container .total-wrapper .product-total .Cell ul {
+          list-style: none;
+          padding: 0;
+          margin: 0; }
+          /* line 164, scss/style.scss */
+          body .container .total-wrapper .product-options .Cell ul li,
+          body .container .total-wrapper .product-total .Cell ul li {
+            display: inline;
+            font-size: 12px; }
+            /* line 167, scss/style.scss */
+            body .container .total-wrapper .product-options .Cell ul li img,
+            body .container .total-wrapper .product-total .Cell ul li img {
+              width: 10%;
+              border: 1px solid #ddd;
+              position: relative;
+              top: 15px;
+              padding: 5px; }
+            /* line 174, scss/style.scss */
+            body .container .total-wrapper .product-options .Cell ul li a,
+            body .container .total-wrapper .product-total .Cell ul li a {
+              color: #888;
+              border: 1px solid #fe0000;
+              text-decoration: none;
+              padding: 2px 5px;
+              border-radius: 5px; }
+        /* line 183, scss/style.scss */
+        body .container .total-wrapper .product-options .Cell input,
+        body .container .total-wrapper .product-total .Cell input {
+          border-radius: 5px;
+          border: 1px solid #0dcaf0;
+          padding: 10px;
+          width: 75px; }
+    /* line 192, scss/style.scss */
+    body .container footer {
+      color: #666;
+      font-size: 12px;
+      margin-top: 20px;
+      border-top: 1px solid #f0f0f0;
+      padding: 10px 0px;
+      text-align: center; }
+
+@media (max-width: 1024px) and (min-width: 768px) {
+  /* line 204, scss/style.scss */
+  .product-wrapper,
+  .total-wrapper {
+    width: 100% !important; } }
+
+@media (max-width: 764px) and (min-width: 360px) {
+  /* line 211, scss/style.scss */
+  .product-wrapper,
+  .total-wrapper {
+    width: 100% !important; }
+  /* line 215, scss/style.scss */
+  .card {
+    width: 100% !important; } }
